@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/style2.css" type="text/css" />
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
+    <script src="./js/main.js"></script>
+    <title>Photo Album</title>
+</head>
+<body>
+   <nav id="main-nav">
+      <div id="logo-section">
+         <img src="./img/logo.png" alt="flikr" class="logo">
+         <h1>Flikr</h1>
+      </div>
+      
+      <div id="title">
+         <h1> My Photo World</h1>
+      </div>
+      <ul>
+         <li><a class="current" href="index.html">Home</a></li>
+         <li class="navdown">History
+            <ul id="recent-nav">
+               
+            </ul>
+         </li>
+      </ul>
+   </nav>
+
+   <div id="background">
+      <div id="plane-logo">
+         <img src="./img/paper-plane.png" alt="" width="100px" height="100px">
+      </div>
+   </div>
+
+   <section id="location">
+         <ul>
+            <li id="brisbane">Brisbane</li>
+            <li id="sydney">Sydney</li>
+            <li id="melbourne">Melbourne</li>
+            <li id="goldcoast">GoldCoast</li>
+            <li id="blueMountain">Blue Mountain</li>
+         </ul>
+   </section>
+
+   <!-- favrouite photos -->
+   
+   <div id="fav-container">
+      
+   </div>
+   
+
+   <!-- location photos -->
+    <main>
+      <div id="container">    
+      </div>
+   </main>
+
+    <footer>
+       <span id="author"> By: Min Young Go</span>
+       <div class="footer-p">
+            <p>
+               Copyright &copy; 2019, All Rights Reserved
+            </p>
+         </div>
+    </footer>
+    
+    <div id="modal-container">
+       <span id="close">
+          &times;
+       </span>
+       <img id="modal-content">
+       <div id="modal-caption">
+          Caption goes here
+       </div>
+    </div>
+    
+</body>
+</html>
